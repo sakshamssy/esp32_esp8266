@@ -9,8 +9,8 @@
 #include <WiFiUdp.h>
 
 // Replace with your network credentials
-const char* ssid     = "REPLACE_WITH_YOUR_SSID";
-const char* password = "REPLACE_WITH_YOUR_PASSWORD";
+ char* ssid     = "Aarav";
+ char* password = "18105449";
 
 // Define NTP Client to get time
 WiFiUDP ntpUDP;
@@ -53,8 +53,8 @@ void loop() {
   // The formattedDate comes with the following format:
   // 2018-05-28T16:00:13Z
   // We need to extract date and time
-  formattedDate = timeClient.getFormattedDate();
-  Serial.println(formattedDate);
+ // formattedDate = timeClient.getFormattedDate();
+//Serial.println(formattedDate);
 
   // Extract date
   int splitT = formattedDate.indexOf("T");

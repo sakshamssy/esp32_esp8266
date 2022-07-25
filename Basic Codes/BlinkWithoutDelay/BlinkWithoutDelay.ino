@@ -4,7 +4,7 @@
 *********/
 
 // constants won't change. Used here to set a pin number :
-const int ledPin =  26;      // the number of the LED pin
+const int ledPin =  D0;      // the number of the LED pin
 
 // Variables will change :
 int ledState = LOW;             // ledState used to set the LED
